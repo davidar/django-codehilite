@@ -1,0 +1,7 @@
+USAGE
+Copy the codehilite/ directory to somewhere in your PYTHONPATH, and add
+"codehilite" to INSTALLED_APPS in settings.py. Then, use the filter with
+something like the following (replacing python with the source language):
+    {% load codehilite %} {{ source|codehilite:"python" }}
+
+Author Homepage: http://da.vidr.cc/
